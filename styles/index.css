@@ -1,0 +1,261 @@
+:root {
+    --color-primary: #ff0000;
+    --color-secondary: #00ff00;
+    --color-tertiary: #0000ff;
+}
+.section {
+    width: 100%;
+    display: flex;
+    padding-left: 24px;
+    padding-right: 24px;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.h1 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 46px;
+}
+.h2-semi-bold{
+    font-family: IC Pangea Text, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.h3 {
+    font-family: IC Pangea Text, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.h3-semi-bold {
+    font-family: IC Pangea Text, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0;
+    text-align: right;
+
+}
+.h4 {
+    font-family: IC Pangea Text, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.h5 {
+    font-family: IC Pangea Text, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-align: right;
+}
+.link {
+    font-family: IC Pangea Text, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+.link-2 {
+    font-family: IC Pangea Text, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #000000
+}
+
+.button {
+    background: #8026FF;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 32px;
+    gap: 16px;
+    width: 100%;
+    max-width: 327px;
+    height: 52px;
+    color: #ffffff;
+    flex-grow: 1;
+}
+
+
+/*Slider*/
+.slider {
+
+}
+/*Slider end*/
+
+
+/*section1*/
+.section1{
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+    background: #FFFFFF;
+    align-content: center;
+    align-items: center;
+    color: #000000;
+}
+
+.section1__link {
+    color: black;
+    align-self: flex-start;
+}
+.section1__header {
+    padding-top: 27px;
+    width: 100%;
+    height: 148px;
+    background-color: #8B3AFD;
+    background-image: url("/assets/images/header-background.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    margin-bottom: 27px;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    align-items: center;
+    align-content: flex-start;
+}
+.section1__content {
+    padding: 0 24px;
+    display: flex;
+    flex-direction: column;
+}
+.section1__callToAction {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 27px;
+    margin-bottom: 27px;
+}
+.section1__callToAction .button{
+  flex-grow: 1;
+}
+.section1__logo {
+    width: 129px;
+    height: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 17px;
+}
+.section1__logoImage {
+    width: 100%;
+    height: 100%;
+}
+
+.section1__card {
+    display: flex;
+    margin-bottom: 27px;
+    width: 42.666%;
+    align-self: center;
+}
+.section1__cardImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    display: block;
+}
+
+.section1 .h3-semi-bold, .section1 .h5 {
+    align-self: flex-start;
+}
+/*Section 1 end*/
+
+
+/*Section 2*/
+.section2 {
+    display: flex;
+    background: #F6F6F6;
+    align-content: center;
+    align-items: center;
+    color: #000000;
+    flex-direction: column;
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+
+.section2 .h3-semi-bold{
+    text-align: center;
+    margin-bottom: 8px;
+}
+.section2 .h4{
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+.section2__slider{
+    text-align: center;
+    margin-bottom: 24px;
+    width: 100%;
+}
+.section2__slider .slider {
+    width: 100% ;
+}
+
+.section2__slider p {
+    font-family: 'IC Pangea Text', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #757575;
+}
+.section2__expectedReturn {
+    padding-top: 11px;
+    background: #FFFFFF;
+    width: calc(100% - 72px);
+}
+
+.section2__expectedReturn .h1 {
+    text-align: center;
+}
+/*Section2 end*/
+
+
+/*Section3*/
+.section3{}
+
+.section3__callToAction {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 27px;
+    margin-bottom: 27px;
+}
+/*Section3* end/
+
+/*Section4*/
+.section4{}
+/*!*Section4 end */
+
+/*Section5*/
+.section5{}
+/*Section5 end*/
+
+
