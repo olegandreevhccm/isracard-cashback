@@ -15,19 +15,20 @@
             <div class="section1__logo">
                 <img src="./assets/images/logo.png" alt="logo" class="section1__logoImage"/>
             </div>
-            <h2 class="h2-semi-bold">CashBack+ כרטיס  </h2>
+            <h2 class="h2-semi-bold section1__cashbackTitle">CashBack+ כרטיס  </h2>
             <h3 class="h2">מקבלים כסף בחזרה על כל קנייה</h3>
         </header>
         <div class="section1__content">
             <div class="section1__card">
                 <img class="section1__cardImage" src="./assets/images/card.png" alt="card">
             </div>
-            <h3 class="h3-semi-bold">צוברים בכל קנייה ומקבלים כסף חזרה בכרטיס מתנה:</h3>
-            <h5 class="h5">כרטיס +CashBack של ישראכרט מאפשר לכם לקבל יותר על כל קנייה. קונים ומקבלים כסף טעון בכרטיס מתנה לרכישה במגוון בתי עסק</h5>
-            <a href="/" class="link-2 section1__link">למידע נוסף</a>
-
-            <div class="section1__callToAction">
-                <button class="button button--primary">להנפקת כרטיס</button>
+            <div class="section__contentText">
+                <h3 class="h3-semi-bold">צוברים בכל קנייה ומקבלים כסף חזרה בכרטיס מתנה:</h3>
+                <h5 class="h5">כרטיס +CashBack של ישראכרט מאפשר לכם לקבל יותר על כל קנייה. קונים ומקבלים כסף טעון בכרטיס מתנה לרכישה במגוון בתי עסק</h5>
+                <a href="/" class="link-2 section1__link">למידע נוסף</a>
+                <div class="section1__callToAction">
+                    <button class="button button--primary">להנפקת כרטיס</button>
+                </div>
             </div>
         </div>
     </section>
@@ -35,30 +36,30 @@
         <div class="section2__content">
             <h3 class="h3-semi-bold"> אז כמה אקבל בחזרה?</h3>
             <h3 class="h4">מהו גובה ההוצעות החודשיות שלך בכרטיס האשראי?</h3>
-
-        </div>
-        <div class="section2__slider">
-            <h6 class="h6">
-                ההוצאה החודשית שלי
-            </h6>
-            <div class="slider__outPutValue h1" ><span id="slider-output"></span><span>₪</span></div>
-            <input type="range" min="1000" max="30000" value="7500" class="slider" id="slider">
-            <div class="slider__info">
-                <span class="slider__infoMax">₪30,000</span>
-                <span class="slider__infoMin">₪1,000</span>
+            <div class="section2__slider">
+                <h6 class="h6">
+                    ההוצאה החודשית שלי
+                </h6>
+                <div class="slider__outPutValue h1" ><span id="slider-output"></span><span>₪</span></div>
+                <input type="range" min="1000" max="30000" value="7500" class="slider" id="slider">
+                <div class="slider__info">
+                    <span class="slider__infoMax">₪30,000</span>
+                    <span class="slider__infoMin">₪1,000</span>
+                </div>
+            </div>
+            <div class="section2__expectedReturn">
+                <h4 class="h1">₪120</h4>
+                <h3 class="h4">ההחזר הצפוי שלך בכרטיס המתנה</h3>
             </div>
         </div>
-        <div class="section2__expectedReturn">
-            <h4 class="h1">₪120</h4>
-            <h3 class="h4">מהו גובה ההוצעות החודשיות שלך בכרטיס האשראי?</h3>
-        </div>
+
     </section>
 
-    <section class="section section3">
+    <section class="section section3 advantages">
         <div class="section3__callToAction">
             <button class="button button--primary">להנפקת כרטיס</button>
         </div>
-        <div>
+        <div class="section3__content">
             <h4 class="h4-semi-bold">יתרונות הכרטיס:</h4>
             <ul class="section3__list">
                 <li class="section3__listItem">
@@ -106,62 +107,70 @@
                 </li>
             </ul>
             <a href="/" class="link-2">לרשתות המכבדות את כרטיס המתנה</a>
+            <div class="section3__callToAction_mobile">
+                <button class="button button--primary">להנפקת כרטיס</button>
+            </div>
         </div>
     </section>
     <section class="section section4 questions-and-answers">
-        <h4 class="h4-semi-bold">שאלות ותשובות:</h4>
-        <ul>
-            <li>
-                <div class="spoiler" id="spoiler">
-                    <div class="spoiler__title" >
-                        <h5 class="h5-semi-bold">איך הקניות שלי הופכות לכרטיס מתנה?</h5>
-                        <img class="spoiler__arrow" src="./assets/images/icons/arrow.svg" alt="">
+        <div class="section4__content">
+            <h4 class="h4-semi-bold">שאלות ותשובות:</h4>
+            <ul>
+                <li>
+                    <div class="spoiler" id="spoiler">
+                        <div class="spoiler__title" >
+                            <h5 class="h5-semi-bold">איך הקניות שלי הופכות לכרטיס מתנה?</h5>
+                            <img class="spoiler__arrow" src="./assets/images/icons/arrow.svg" alt="">
+                        </div>
+                        <p class="spoiler__content">
+                            הסבר מפורט על אופן הצבירה, יופיע כאן בעתיד הקרוב ולא ישאיר ספקות
+                        </p>
                     </div>
-                    <p class="spoiler__content">
-                        הסבר מפורט על אופן הצבירה, יופיע כאן בעתיד הקרוב ולא ישאיר ספקות
-                    </p>
-                </div>
-            </li>
-            <li>
-                <div class="spoiler">
-                    <div class="spoiler__title" >
-                        <h5 class="h5-semi-bold">איך רואים את הצבירה שלי?</h5>
-                        <img class="spoiler__arrow" src="./assets/images/icons/arrow.svg" alt="">
+                </li>
+                <li>
+                    <div class="spoiler">
+                        <div class="spoiler__title" >
+                            <h5 class="h5-semi-bold">איך רואים את הצבירה שלי?</h5>
+                            <img class="spoiler__arrow" src="./assets/images/icons/arrow.svg" alt="">
+                        </div>
+                        <p class="spoiler__content">
+                            הסבר מפורט על אופן הצבירה, יופיע כאן בעתיד הקרוב ולא ישאיר ספקות
+                        </p>
                     </div>
-                    <p class="spoiler__content">
-                        הסבר מפורט על אופן הצבירה, יופיע כאן בעתיד הקרוב ולא ישאיר ספקות
-                    </p>
-                </div>
 
-            </li>
-            <li>
-                <div class="spoiler">
-                    <div class="spoiler__title" >
-                        <h5 class="h5-semi-bold">איך ממשים את הצבירה ?</h5>
-                        <img class="spoiler__arrow" src="./assets/images/icons/arrow.svg" alt="">
+                </li>
+                <li>
+                    <div class="spoiler">
+                        <div class="spoiler__title" >
+                            <h5 class="h5-semi-bold">איך ממשים את הצבירה ?</h5>
+                            <img class="spoiler__arrow" src="./assets/images/icons/arrow.svg" alt="">
+                        </div>
+                        <p class="spoiler__content">
+                            הסבר מפורט על אופן הצבירה, יופיע כאן בעתיד הקרוב ולא ישאיר ספקות
+                        </p>
                     </div>
-                    <p class="spoiler__content">
-                        הסבר מפורט על אופן הצבירה, יופיע כאן בעתיד הקרוב ולא ישאיר ספקות
-                    </p>
-                </div>
-            </li>
-            <li>
-                <div class="spoiler">
-                    <div class="spoiler__title" >
-                        <h5 class="h5-semi-bold">איפה אפשר לשלם עם כרטיס המתנה?</h5>
-                        <img class="spoiler__arrow" src="./assets/images/icons/arrow.svg" alt="">
+                </li>
+                <li>
+                    <div class="spoiler">
+                        <div class="spoiler__title" >
+                            <h5 class="h5-semi-bold">איפה אפשר לשלם עם כרטיס המתנה?</h5>
+                            <img class="spoiler__arrow" src="./assets/images/icons/arrow.svg" alt="">
+                        </div>
+                        <p class="spoiler__content">
+                            הסבר מפורט על אופן הצבירה, יופיע כאן בעתיד הקרוב ולא ישאיר ספקות
+                        </p>
                     </div>
-                    <p class="spoiler__content">
-                        הסבר מפורט על אופן הצבירה, יופיע כאן בעתיד הקרוב ולא ישאיר ספקות
-                    </p>
-                </div>
-            </li>
-        </ul>
-        <div class="section3__callToAction">
-            <button class="button button--primary">להנפקת כרטיס</button>
+                </li>
+            </ul>
+            <div class="section3__callToAction">
+                <button class="button button--primary">להנפקת כרטיס</button>
+            </div>
+
         </div>
+
     </section>
     <section class="section section5">
+    <div class="section5__content">
         <header>
             <h4 class="h4-semi-bold">רוצה שנחזור אליך?</h4>
         </header>
@@ -180,9 +189,11 @@
             </div>
             <button class="button form__button">שליחה</button>
         </form>
+    </div>
+
     </section>
-    <section class="section section6" id="legalTerms">
-        <p class="section5__legalTerms h5">
+    <section class="section section6 legal-terms" id="legalTerms">
+        <p class="section6__legalTerms h5">
             תנאים משפטיים
             אמט, קונסקטורר קלאצי לקטוס מרגשי בנפת דלאמת בורק? דול, - דיאם. ומרגשח. לפמעט רוגצה. יבש, דומור אפאח ליאמום היושבב ניבאה. צש שעותלשך מודוף. קראס ברומץ לפתיעם צוט ננבי, צשחמי כאנה - ליאמום מונפרד סחטיר מנק אגת קולורס סולגק. שעותלשך תצטנפל כאנה דס התידם צמוקו סחטיר גדדיש. בלוף בראיט הדש בריקנה
             <br/>
