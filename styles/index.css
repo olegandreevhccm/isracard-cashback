@@ -197,7 +197,7 @@
 .form__row {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 16px;
     margin-bottom: 24px;
@@ -586,5 +586,23 @@
         flex-direction: column;
         align-items: center;
         align-self: center;
+    }
+    .section5 {
+        align-items: center;
+    }
+    .section5__content {
+        width: 100%
+    }
+    .section5 .h4-semi-bold {
+        text-align: center;
+        margin-bottom: 24px;
+    }
+    .section6{
+        max-width: 100%;
+        padding-bottom: 40px;
+    }
+    .section6__legalTerms{
+        width: 550px;
+        margin: 0 auto;
     }
 }
