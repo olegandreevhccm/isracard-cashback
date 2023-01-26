@@ -599,8 +599,19 @@
         width: 100%
     }
     .section5 .h4-semi-bold {
-        text-align: center;
-        margin-bottom: 24px;
+        text-align: right;
+        max-width: 575px;
+        margin: 0 auto 24px;
+    }
+    .section5 .form__row:last-child {
+        margin-bottom: 0;
+        max-width: 575px;
+        width: 100%;
+        justify-content: flex-end;
+        align-self: center;
+    }
+    .section5 .form__button {
+        flex: 150px 0;
     }
     .section6{
         max-width: 100%;
