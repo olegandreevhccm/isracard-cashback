@@ -112,7 +112,7 @@
 }
 
 .button {
-    background: #8026FF;
+    background: #006FCF;
     border-radius: 4px;
     display: flex;
     flex-direction: row;
@@ -210,7 +210,7 @@
 
 /*Slider*/
 .slider {
-    accent-color: #8026FF;
+    accent-color: #006FCF;
     width: 100%;
     height: 3px;
     background: black;
@@ -240,17 +240,17 @@
 
 /*!** FF*!*/
 /*input[type="range"]::-moz-range-progress {*/
-/*    background-color: #8026FF;*/
+/*    background-color: #006FCF;*/
 /*}*/
 /*input[type="range"]::-moz-range-track {*/
-/*    background-color: #8026FF;*/
+/*    background-color: #006FCF;*/
 /*}*/
 /*!* IE*!*/
 /*input[type="range"]::-ms-fill-lower {*/
-/*    background-color: #8026FF;*/
+/*    background-color: #006FCF;*/
 /*}*/
 /*input[type="range"]::-ms-fill-upper {*/
-/*    background-color: #8026FF;*/
+/*    background-color: #006FCF;*/
 /*}*/
 /*Slider end*/
 
@@ -274,8 +274,7 @@
     padding-top: 27px;
     width: 100%;
     height: 148px;
-    background-color: #8B3AFD;
-    background-image: url("../assets/images/header.png");
+    background-color: #006FCF;
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
@@ -306,7 +305,7 @@
     margin-bottom: 3px;
 }
 .section1__callToAction .button{
-  flex-grow: 1;
+    flex-grow: 1;
 }
 .section1__logo {
     width: 129px;
@@ -325,6 +324,7 @@
     display: flex;
     margin-bottom: 27px;
     width: 42.666%;
+    max-width: 317px;
     align-self: center;
 }
 .section1__cardImage {
@@ -528,7 +528,7 @@
         justify-content: center;
     }
     .section3__content .h4-semi-bold {
-     display: none;
+        display: none;
     }
     .section3__content .link-2{
         flex-basis: 100%;
