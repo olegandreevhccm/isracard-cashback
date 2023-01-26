@@ -130,6 +130,7 @@
     height: 52px;
     color: #ffffff;
     flex-grow: 1;
+    border: 0;
 }
 
 /*widgets*/
@@ -282,7 +283,7 @@
     background-image: url("/assets/images/header-background.png");
     background-repeat: no-repeat;
     background-position: right;
-    background-size: cover;
+    background-size: contain;
     margin-bottom: 27px;
     display: flex;
     flex-direction: column;
@@ -586,6 +587,10 @@
         flex-direction: column;
         align-items: center;
         align-self: center;
+        width: 100%;
+    }
+    .section4__content ul {
+        width: 100%;
     }
     .section5 {
         align-items: center;
